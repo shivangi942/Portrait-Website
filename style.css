@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img{
+    background-attachment: fixed;
+    height: 100%;
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.img1{
+    background-image: url(/img/jyotirmoy-gupta-fpBNEz7N14s-unsplash.jpg);
+    min-height:100%;
+}
+
+.img2{
+    background-image: url(/img/hosein-shirvani-JMsXVepu4S8-unsplash.jpg);
+    min-height: 100%;
+}
+
+.img3{
+    background-image: url(/img/christopher-campbell-Xo4YvBp6IBM-unsplash.jpg);
+    min-height: 100%;
+}
+
+.img4{
+    background-image: url(/img/thought-catalog--v7EOw5SA4I-unsplash.jpg);
+    min-height: 100%;    
+}
+
+.img5{
+    background-image: url(/img/marina-vitale-t809JJ6r9KA-unsplash.jpg);
+    min-height: 100%;
+}
+
+.text{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 49vh;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.text1{
+    background-color: brown;
+    display: inline;
+}
