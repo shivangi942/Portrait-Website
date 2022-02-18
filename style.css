@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;1,100&display=swap');
 
 body, html{
     height: 100%;
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .img{
@@ -45,12 +45,50 @@ body, html{
     text-align: center;
     align-items: center;
     position: absolute;
-    top: 49vh;
+    top: 70vh;
+    letter-spacing: 0.5rem;
     width: 100%;
     font-size: 3rem;
+    opacity: 0.7;
+    text-transform: uppercase;
 }
 
 .text1{
-    background-color: brown;
-    display: inline;
+    background-color: #0f0f0f;
+    padding: 0 1rem;
+    color: white;
+}
+
+.text5{
+    background-color: #5e5549;
+    padding: 0 1rem;
+    color: wheat;
+}
+.section{
+    padding: 1rem;
+}
+
+.section h2{
+    text-align: center;
+}
+
+.section a{
+    text-decoration: none;
+    color: black;
+}
+
+.section a:link{
+    color: #f87171;
+}
+
+.section a:visited{
+    color: #0f766e;
+}
+
+.section a:hover{
+    color: #a5bcdf;
+}
+
+.section p{
+    letter-spacing: 0.1rem;
 }
